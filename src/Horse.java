@@ -1,4 +1,5 @@
 class Horse implements Animal {
+
     private String name = "Horse";
 
     @Override

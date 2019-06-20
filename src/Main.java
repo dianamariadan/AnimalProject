@@ -8,10 +8,9 @@ public class Main {
         animalList.add(new Cat());
         animalList.add(new Dog());
 
-        for( int i = 0 ; i < animalList.size(); i++){
-            Animal animal = animalList.get(i);
+        for (int position = 0; position < animalList.size(); position++) {
+            Animal animal = animalList.get(position);
             System.out.println(animal.getName() + " makes " + animal.sound());
         }
-
     }
 }
